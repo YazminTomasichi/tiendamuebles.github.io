@@ -1,0 +1,36 @@
+#productos3 .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#productos3 article {
+    margin: 15px;
+    text-align: center;
+    position: relative;
+    background: #037BC0;
+    color: white;
+    padding-bottom: 10px;
+}
+
+#productos3 img {
+    width: 100%;
+    max-width: 280px;
+}
+
+/* BOTON */
+#productos3 a {
+    display: inline-block;
+    width: 150px;
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+    margin-top: 7px;
+    border: 2px solid rgb(83, 208, 0);
+    background: rgb(83, 208, 0);
+}
+
+#productos3 a:hover{
+    background: rgba(57, 148, 0, 0.8);
+}
+/* BOTON */

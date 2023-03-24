@@ -1,0 +1,22 @@
+#categorias .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#categorias article {
+    margin: 15px;
+}
+
+#categorias img {
+    width: 100%;
+    max-width: 280px;
+}
+
+#categorias img:hover {
+   transform: scale(1.1);
+}
+
+#categorias h2, h3 {
+    text-align: center;
+}
